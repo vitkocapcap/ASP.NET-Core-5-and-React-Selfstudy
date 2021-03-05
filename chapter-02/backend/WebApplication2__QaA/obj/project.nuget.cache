@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gs6sDcCWPKbxnHy87OXiYHm6tV/OlDNMPy2fPj5njcBW424RPqKvyvw3QKrwNE9xqFUanD/EWR5F9ftv69F0vg==",
+  "success": true,
+  "projectFilePath": "D:\\Web Developer\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Microsoft Windows\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Microsoft Windows\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Microsoft Windows\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Microsoft Windows\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Microsoft Windows\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Microsoft Windows\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
