@@ -49,7 +49,6 @@ const questions: QuestionData[] = [
   },
 ];
 
-export const getUnansweredQuestions = async (): Promise<QuestionData[]> => {
-  await wait(500);
+export const getUnansweredQuestions = (): QuestionData[] => {
   return questions.filter((q) => q.answers.length === 0);
 };
