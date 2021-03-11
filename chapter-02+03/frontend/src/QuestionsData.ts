@@ -22,21 +22,22 @@ const questions: QuestionData[] = [
       'TypeScript seems to be getting popular so I wondered whether it is worth my time learning it? What benefits does it give over JavaScript?',
     userName: 'Bob',
     created: new Date(),
-    answers: [
-      {
-        answerId: 1,
-        content: 'To catch problems earlier speeding up your developments',
-        userName: 'Jane',
-        created: new Date(),
-      },
-      {
-        answerId: 2,
-        content:
-          'So, that you can use the JavaScript features of tomorrow, today',
-        userName: 'Fred',
-        created: new Date(),
-      },
-    ],
+    // answers: [
+    //   {
+    //     answerId: 1,
+    //     content: 'To catch problems earlier speeding up your developments',
+    //     userName: 'Jane',
+    //     created: new Date(),
+    //   },
+    //   {
+    //     answerId: 2,
+    //     content:
+    //       'So, that you can use the JavaScript features of tomorrow, today',
+    //     userName: 'Fred',
+    //     created: new Date(),
+    //   },
+    // ],
+    answers: [],
   },
   {
     questionId: 2,
@@ -49,6 +50,11 @@ const questions: QuestionData[] = [
   },
 ];
 
-export const getUnansweredQuestions = (): QuestionData[] => {
+export const getUnansweredQuestions = async (): Promise<QuestionData[]> => {
+  await wait(500);
   return questions.filter((q) => q.answers.length === 0);
+};
+
+const wait = (ms: number): Promise<void> => {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 };
