@@ -6,6 +6,7 @@ import { getUnansweredQuestions, QuestionData } from './QuestionsData';
 import { QuestionList } from './QuestionList';
 import { Page } from './Page';
 import { PageTitle } from './PageTitle';
+import { useNavigate } from 'react-router-dom';
 
 export const HomePage = () => {
   const [questions, setQuestions] = React.useState<QuestionData[]>([]);
@@ -21,8 +22,10 @@ export const HomePage = () => {
     doGetUnansweredQuestions();
   }, []);
 
+  const navigate = useNavigate();
+
   const handleAskQuestionClick = () => {
-    console.log('test');
+    navigate('ask');
   };
   return (
     <Page>
