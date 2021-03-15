@@ -28,13 +28,12 @@ export const HomePage = () => {
   //useEffect plays like componentDidMount()
   React.useEffect(() => {
     const doGetUnansweredQuestions = async () => {
-      dispatch(gettingUnansweredQuestionsAction);
+      dispatch(gettingUnansweredQuestionsAction());
       const unansweredQuestions = await getUnansweredQuestions();
-
       dispatch(gotUnansweredQuestionsAction(unansweredQuestions));
     };
     doGetUnansweredQuestions();
-    // eslint-disable-next-line react hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const navigate = useNavigate();
