@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Web Developer\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj": {}
+    "D:\\Web Development\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02+03+04+05\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj": {}
   },
   "projects": {
-    "D:\\Web Developer\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj": {
+    "D:\\Web Development\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02+03+04+05\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web Developer\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj",
+        "projectUniqueName": "D:\\Web Development\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02+03+04+05\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj",
         "projectName": "WebApplication2__QaA",
-        "projectPath": "D:\\Web Developer\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj",
-        "packagesPath": "C:\\Users\\Microsoft Windows\\.nuget\\packages\\",
-        "outputPath": "D:\\Web Developer\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02\\backend\\WebApplication2__QaA\\obj\\",
+        "projectPath": "D:\\Web Development\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02+03+04+05\\backend\\WebApplication2__QaA\\WebApplication2__QaA.csproj",
+        "packagesPath": "C:\\Users\\vitko\\.nuget\\packages\\",
+        "outputPath": "D:\\Web Development\\ASP.NET-Core-5-and-React-Selfstudy\\chapter-02+03+04+05\\backend\\WebApplication2__QaA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Microsoft Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vitko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,9 +40,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "dbup": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [
